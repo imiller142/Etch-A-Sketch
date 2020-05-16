@@ -1,0 +1,47 @@
+:root {
+    --grid-rows: 1;
+}
+
+
+
+.top-of-page {
+    text-align: center;
+    padding: 0px 40px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main {
+    border: 1px solid black;
+    margin: 70px auto;
+    width: 640px;
+    height: 640px;
+    display: grid;
+    grid-template-columns: repeat(var(--grid-rows), 1fr);
+    grid-template-rows: repeat(var(--grid-rows) 1fr);
+    background-color: white;
+}
+
+.nav-bar {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#center {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+
+#reset {
+    min-width: 102.5px;
+}
+
+.grid {
+    border: 1px solid grey;
+}
+
+.onmouseover {
+    background-color: black;
+}
